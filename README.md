@@ -26,7 +26,7 @@ Linux system logs (/var/log/auth.log) or exported log files in text format
 
 Clone the repository:
 
-git clone https://github.com/yourusername/LogSentinel.git
+git clone https://github.com/tamzzay/LogSentinel.git
 
 Navigate to the project directory:
 
