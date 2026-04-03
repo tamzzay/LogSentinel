@@ -1,4 +1,4 @@
-# 🛡️ LogSentinel AI
+# 🛡️ LogSentinel 
 
 ### Real-Time Log Analysis & Threat Detection Dashboard
 
@@ -79,13 +79,13 @@ http://127.0.0.1:5000
 View real-time dashboard updates as logs are processed
 
 ## 📊 Dashboard Overview
-Total Logs: Total processed entries
-Admin Hits: Potential brute-force attempts
-Delete Requests: Suspicious destructive actions
-Status Codes Chart: Distribution of HTTP responses
-Log Rate Graph: Traffic trend over time
-Live Logs Panel: Streaming log activity
-Attack Map: Global attack sources
+- **Total Logs:** Total processed entries
+- **Admin Hits:** Potential brute-force attempts
+- **Delete Requests:** Suspicious destructive actions
+- **Status Codes Chart:** Distribution of HTTP responses
+- **Log Rate Graph:** Traffic trend over time
+- **Live Logs Panel:** Streaming log activity
+- **Attack Map:** Global attack sources
 
 ---
 ## ⚙️ How It Works
@@ -93,9 +93,9 @@ Log file is monitored in real time (file streaming)
 Each log line is parsed using regex
 
 ### Key indicators are extracted:
-IP address
-Request type
-Status code
+- **IP address**
+- **Request type**
+- **Status code**
 
 Data is processed and updated dynamically
 WebSocket sends updates instantly to frontend
@@ -103,10 +103,10 @@ AI model analyzes patterns for anomalies
 Dashboard reflects live system state
 
 ## 🧠 Threat Detection Logic
-Indicator	Detection
-High /admin requests	Brute-force attack
-Frequent DELETE requests	Data manipulation attempt
-High 500 errors	Server exploit attempt
+- **Indicator	Detection** 
+- **High /admin requests	Brute-force attack** 
+- **Frequent DELETE requests	Data manipulation attempt**
+- **High 500 errors	Server exploit attempt**
 
 ----
 ## 📄 License
