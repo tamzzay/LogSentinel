@@ -58,7 +58,6 @@ Built with a focus on **Security Operations Center (SOC)-style monitoring**, the
 ## 📦 Installation
 
 ### 1. Clone the repository
-```bash
 git clone https://github.com/tamzzay/LogSentinel.git
 cd LogSentinel
 
@@ -68,6 +67,7 @@ python -m pip install -r requirements.txt
 ### 3. Run the application
 python logsentinel.py
 
+---
 ## ▶️ Usage
 Start the application
 Enter the path to your log file when prompted:
@@ -87,6 +87,7 @@ Log Rate Graph: Traffic trend over time
 Live Logs Panel: Streaming log activity
 Attack Map: Global attack sources
 
+---
 ## ⚙️ How It Works
 Log file is monitored in real time (file streaming)
 Each log line is parsed using regex
@@ -107,15 +108,10 @@ High /admin requests	Brute-force attack
 Frequent DELETE requests	Data manipulation attempt
 High 500 errors	Server exploit attempt
 
+----
 ## 📄 License
-
 MIT License — free to use, modify, and distribute.
 
+----
 ## 👩‍💻 Author
-
 Developed as a cybersecurity project focusing on real-time threat detection, log analysis, and SOC-style monitoring systems.
-<img width="1920" height="1080" alt="Screenshot (718)" src="https://github.com/user-attachments/assets/f1cb6de4-44ce-4fc7-becf-47106cb1818d" />
-
-
-
-### 1. 
